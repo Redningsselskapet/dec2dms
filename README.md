@@ -1,3 +1,7 @@
+## dec2dms
+
+Convert decimal to dms (degree minutes seconds)
+
 ### Usage:
 
 ```javascript

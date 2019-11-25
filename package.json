@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bernt Anker <bernt.anker@me.com>",
+  "author": "Bernt Anker (bernt.anker@me.com)",
   "license": "ISC",
   "dependencies": {
     "formatcoords": "^1.1.3",
