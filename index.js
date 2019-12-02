@@ -1,24 +1,10 @@
 const formatcoords = require('formatcoords')
-/**
- * @typedef {Object} DecCoord - Decimal coordinate
- * @property {number} lng - Longitude
- * @property {number} lat - Latitude
- */
 
-/**
- * @typedef {Object} DMS - DMS coordinate
- * @property {string} lng - Longitude
- * @property {string} lat - Latitude
- */
-
-/**
- * Convert decimal coordninate to dms coordinate
- * @param {Coordinate} 
- * @return {DMS}
- */
 const dec2dms = ({lng, lat}) => {
+    if (lat <= -90 || lat >= 90) throw('not an valid latitude value')
+    if (lng <= -180 || lng >= 180) throw('not an valid longitude value')
     const value = formatcoords(lng, lat).format('DD m', {
-        latLonSeparator: ', '
+        latLonSeparator: ','
       }).split(',')
     return {
         lng: value[0],
