@@ -6,7 +6,7 @@ Convert decimal to dms (degree minutes seconds)
 
 ```javascript
 const dec2dms = require('@redningsselskapet/dec2dms')
-dec2dms(dec2dms({lat: 63.754418333333334, lng: 11.288726666666667}))
+dec2dms({lat: 63.754418333333334, lng: 11.288726666666667})
 ```
 Output:
 ```javascript
