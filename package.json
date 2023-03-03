@@ -1,6 +1,6 @@
 {
   "name": "@redningsselskapet/dec2dms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Converts decimal to degree minutes seconds",
   "main": "index.js",
   "scripts": {
