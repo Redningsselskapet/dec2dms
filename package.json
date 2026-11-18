@@ -13,6 +13,10 @@
   },
   "author": "Bernt Anker (bernt.anker@me.com)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redningsselskapet/dec2dms.git"
+  },
   "dependencies": {
     "formatcoords": "^1.1.3"
   },
